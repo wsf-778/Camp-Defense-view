@@ -1,8 +1,4 @@
-System.register("chunks:///_virtual/bundle", [], function () {
-  return {
-    execute: function () {}
-  };
-});
+System.register("chunks:///_virtual/bundle",[],(function(){return{execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/bundle', 'chunks:///_virtual/bundle'); 
